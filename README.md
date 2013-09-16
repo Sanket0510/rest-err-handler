@@ -11,3 +11,9 @@ You can also test the application from a web browser after building it with a qu
 like: 
 
     http://localhost:8080/rest-err-handler/ws/customer?name=bob
+
+Note: The first time you attempt build the artifact with Maven, you will want to skip the tests with something like:
+
+    mvn package -Dmaven.test.skip=true
+    
+There is a sample test case that will fail, unless you start the server.  
