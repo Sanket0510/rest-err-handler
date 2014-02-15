@@ -17,3 +17,7 @@ Note: The first time you attempt build the artifact with Maven, you will want to
     mvn package -Dmaven.test.skip=true
     
 There is a sample test case that will fail, unless you start the server.  
+
+I hava a web page that explains the project in much greater detail at
+
+http://www.lopakalogic.com/articles/web-services-articles/advanced-error-handling-rest-based-web-service/
